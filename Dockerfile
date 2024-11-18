@@ -19,4 +19,4 @@ ENV PORT=5575
 EXPOSE 5575
 
 # Start the app
-CMD ["yarn", "start"]
+CMD ["sh", "-c", "PORT=5575 yarn start"]
